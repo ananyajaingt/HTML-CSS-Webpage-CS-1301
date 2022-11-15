@@ -1,0 +1,103 @@
+/* YOUR STYLES HERE */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    font-size: 14px;
+    color: black;
+    margin: 0px 10px;
+    text-decoration: none;
+
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+#profile-pic{
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+
+#profile-pic:hover{
+    box-shadow: 0px 0px 5px #C2C2C2;
+}
+
+#store-link{
+    margin-right: auto;
+}
+
+#search{
+    text-align: center;
+    margin-top: 240px;
+    
+}
+
+#main-logo{
+    width: 272px;
+}
+
+#search-bar{
+    height: 34px;
+    width: 90%;
+    max-width: 500px;
+    font-size: 17px;
+    border-radius: 17px;
+
+    border: 1px solid #C2C2C2;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+
+    
+}
+
+#search-bar:hover,
+#search-bar:focus{
+    box-shadow: 0px 0px 5px #C2C2C2;
+}
+
+#search-buutons{
+    display: flex;
+    margin-top: 20px;
+}
+
+.search-button{
+    margin: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: ipx solid #4b4b4b;
+    border-radius: 4px;
+    font-size:14px;
+}
+
+.search-butto:hover{
+    box-shadow: 0px 0px 5px #C2C2C2;
+}
+
+#heading-pp{
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: rgb(109, 38, 222);
+}
+
+#pp-body{
+    background-color:#d7b8e7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+
+.my-images{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+}
